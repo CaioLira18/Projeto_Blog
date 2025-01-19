@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
 
 
 
@@ -30,9 +30,10 @@
 
   <script src="js/webp.js"        async></script>
   <script src="js/picturefill.js" async></script>
+  <script src="js/responividade.js" async></script>
+  
+  
   <!--   <script src="js/lazysizes.js"   async></script> -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4322431904968711"
-     crossorigin="anonymous"></script>
 
 </head>
 
@@ -44,20 +45,33 @@
 
     <a class="skip-link" href="#main">skip-link</a>
 
-    <nav class="w3-bar w3-black w3-hide-small">
-      <h2 class="visually-hidden">Navigation</h2>
-      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">Instagram</span><span class="fa fa-instagram"></span></a>
-      <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">twitter</span><span class="fa fa-twitter"></span></a>
-      <a class="w3-bar-item w3-button w3-right" href="#"><span class="visually-hidden">search</span><span class="fa fa-search"></span></a>
+    <nav class="w3-bar w3-blue w3-hide-small">
+      <div class="header">
+        <div class="logo">
+          <img src="/midia/icones/logo.png" alt="" style="max-width: 350px; height: auto;">
+        </div>
+
+      </div>
+    
+      <!-- Barra de navegação -->
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html">NOTÍCIAS</a></li>
+          <li><a href="games.html">GAMES</a></li>
+          <li><a href="#">ESPORTS</a>
+            <ul class="dropdown">
+              <li><a href="#">CS:GO</a></li>
+              <li><a href="#">League of Legends</a></li>
+            </ul>
+          </li>
+          <li><a href="hardware.html">Hardware</a></li>
+          <li><a href="#">Lançamentos 2025</a></li>
+        </ul>
+      </div>
+    
     </nav>
 
     <div class="w3-content">
-
-      <div class="w3-container w3-padding-32 w3-white w3-center">
-        <p class="w3-xxxlarge usr-main-caption" tabindex="0">Mundo Geek</p>
-        <p class="w3-large"><span class="w3-tag">Bem vindo Ao melhor blog de jogos do brasil</span></p>
-      </div>
-
       <div class="w3-modal">
         <div class="w3-modal-content  w3-display-container w3-animate-top">
 
@@ -96,42 +110,41 @@
 
       <div class="w3-col l8 w3-container">
 
-        <article class="w3-white w3-margin-bottom">
+        <article class="w3-white w3-margin-bottom" id="rtx">
           <div class="w3-container">
-
             <header class="w3-padding-16 w3-center">
               <h2 tabindex="0">RTX Serie 50 Anunciada</h2>
-              <p>Nvidea divulga as novas placas de video, <time class="w3-text-grey">15/01/2025</time></p>
+              <p>NVIDIA divulga as novas placas de vídeo, <time class="w3-text-grey">15/01/2025</time></p>
             </header>
-
+        
             <picture>
-              <source type="image/jpg"
-                      srcset="midia/imagens_posts/nvidea.jpg">
-
+              <source type="image/jpg" srcset="midia/imagens_posts/nvidea.jpg">
               <img class="w3-image" src="image/girl_hat.jpg" width="600" height="395" loading="lazy" alt="Girl hat">
             </picture>
-
-            <p>A NVIDIA anunciou recentemente sua nova linha de placas de vídeo GeForce RTX Série 50, baseada na arquitetura Blackwell, durante a CES 2025. A série inclui quatro modelos: RTX 5090, RTX 5080, RTX 5070 Ti e RTX 5070, todos com avanços significativos em desempenho e recursos de inteligência artificial.</p>
+        
+            <p>
+              A NVIDIA anunciou recentemente sua nova linha de placas de vídeo GeForce RTX Série 50, baseada na arquitetura Blackwell, durante a CES 2025. A série inclui quatro modelos: RTX 5090, RTX 5080, RTX 5070 Ti e RTX 5070, todos com avanços significativos em desempenho e recursos de inteligência artificial.
+            </p>
             <p><strong>Modelos e Especificações:</strong></p>
-            <p><strong>RTX 5090:</strong> É o modelo topo de linha, equipado com 32 GB de memória GDDR7 e 21.760 núcleos CUDA. A NVIDIA afirma que esta GPU oferece desempenho até duas vezes superior ao da RTX 4090, tornando-se uma opção poderosa para gamers e profissionais que buscam máxima performance. O preço sugerido é de US$ 1.999, com disponibilidade a partir de 30 de janeiro de 2025. 
-              TECHSHAKE </p>  
-            <p><strong>RTX 5080:</strong> Com 16 GB de memória GDDR7 e 10.752 núcleos CUDA, a RTX 5080 promete desempenho equivalente ao dobro da RTX 4080. Estará disponível também a partir de 30 de janeiro de 2025, com preço de US$ 999. 
-              TECHSHAKE</p>
-              
-            <p><strong>RTX 5070 Ti e RTX 5070:</strong> Os modelos intermediários possuem 12 GB e 8 GB de memória GDDR7, respectivamente. A RTX 5070 Ti será lançada em fevereiro de 2025 por US$ 749, enquanto a RTX 5070 chegará ao mercado pelo preço de US$ 549</p>
-            
+            <p><strong>RTX 5090:</strong> É o modelo topo de linha, equipado com 32 GB de memória GDDR7 e 21.760 núcleos CUDA. A NVIDIA afirma que esta GPU oferece desempenho até duas vezes superior ao da RTX 4090, tornando-se uma opção poderosa para gamers e profissionais que buscam máxima performance. O preço sugerido é de US$ 1.999, com disponibilidade a partir de 30 de janeiro de 2025.</p>
+            <p><strong>RTX 5080:</strong> Com 16 GB de memória GDDR7 e 10.752 núcleos CUDA, a RTX 5080 promete desempenho equivalente ao dobro da RTX 4080. Estará disponível também a partir de 30 de janeiro de 2025, com preço de US$ 999.</p>
+            <p><strong>RTX 5070 Ti e RTX 5070:</strong> Os modelos intermediários possuem 12 GB e 8 GB de memória GDDR7, respectivamente. A RTX 5070 Ti será lançada em fevereiro de 2025 por US$ 749, enquanto a RTX 5070 chegará ao mercado pelo preço de US$ 549.</p>
             <hr>
-
-
+        
+            <!-- Botão animado -->
+            <div class="button-container">
+              <a href="/materias/rtx.html" class="animated-button" target="_blank">Matéria Completa</a>
+            </div>
           </div>
         </article>
+        
 
-        <article class="w3-white w3-margin-bottom">
+        <article class="w3-white w3-margin-bottom" id="shadows">
           <div class="w3-container">
 
             <header class="w3-padding-16 w3-center">
               <h2 tabindex="0">Assasins Creed Shadows Adiado</h2>
-              <p>Ubsoft anuncia adiamento do novo Assasins Creed, <time class="w3-text-grey">2020-09-15 9:15</time></p>
+              <p>Ubsoft anuncia adiamento do novo Assasins Creed, <time class="w3-text-grey">15/01/2025</time></p>
             </header>
 
             <picture>
@@ -153,6 +166,9 @@
               </p>
 
             <hr>
+            <div class="button-container">
+              <a href="/materias/shadows.html" class="animated-button" target="_blank">Matéria Completa</a>
+            </div>
 
             <div class="usr-repl-modal usr-hidden">
               <div class="w3-row w3-padding-16 w3-animate-left">
@@ -164,11 +180,6 @@
 
                     <img class="w3-image usr-avatar" src="image/girl_train.jpg" width="500" height="600" loading="lazy" alt="Avatar">
                   </picture>
-                </div>
-
-                <div class="w3-col m9">
-                  <p><span class="w3-large">Jane </span><time class="w3-small w3-text-grey">2020-09-15 9:15</time></p>
-                  <p>Great blog post! Following</p>
                 </div>
 
               </div>
@@ -184,10 +195,6 @@
                   </picture>
                 </div>
 
-                <div class="w3-col m9">
-                  <p><span class="w3-large">Mary </span><time class="w3-small w3-text-grey">15/01/2025</time></p>
-                  <p>Great blog post! Following</p>
-                </div>
 
               </div>
             </div>
@@ -195,7 +202,7 @@
           </div>
         </article>
 
-        <article class="w3-white w3-margin-bottom">
+        <article class="w3-white w3-margin-bottom" id="nitendo2">
           <div class="w3-container">
 
             <header class="w3-padding-16 w3-center">
@@ -217,6 +224,9 @@
             <p>A Nintendo, conhecida por seu rigoroso controle sobre informações de produtos não anunciados, declarou que as imagens e vídeos divulgados não são oficiais. Portanto, detalhes como especificações técnicas, design final e funcionalidades permanecem desconhecidos até um anúncio oficial</p>
             <p>Enquanto isso, a comunidade gamer aguarda ansiosamente por informações concretas sobre o Switch 2, na expectativa de que a Nintendo apresente inovações significativas em seu próximo console híbrido.</p>
             <hr>
+            <div class="button-container">
+              <a href="/materias/rtx.html" class="animated-button" target="_blank">Matéria Completa</a>
+            </div>
 
             <div class="usr-repl-modal usr-hidden">
               <div class="w3-row w3-padding-16 w3-animate-left">
@@ -283,12 +293,12 @@
         <h2 class="visually-hidden">Other News</h2>
 
         <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-black">
+          <div class="w3-container w3-blue">
             <h2 tabindex="0">Posts Populares</h2>
           </div>
           <ul class="w3-ul w3-hoverable">
             <li>
-              <a class="w3-block" href="#">
+              <a class="w3-block" href="#shadows">
                 <picture>
                   <source type="image/jpg"
                           srcset="midia/imagens_posts/ACShadow.jpg">
@@ -299,7 +309,7 @@
               </a>
             </li>
             <li>
-              <a class="w3-block" href="#">
+              <a class="w3-block" href="#rtx">
                 <picture>
                   <source type="image/jpg"
                           srcset="midia/imagens_posts/nvidea.jpg">
@@ -310,7 +320,7 @@
               </a>
             </li>
             <li>
-              <a class="w3-block" href="#">
+              <a class="w3-block" href="#nitendo2">
                 <picture>
                   <source type="image/jpg"
                           srcset="midia/imagens_posts/nitendo.jpg">
@@ -325,7 +335,7 @@
         </section>
 
         <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-black">
+          <div class="w3-container w3-blue">
             <h2 tabindex="0">Categorias:</h2>
           </div>
           <ul class="w3-ul w3-hoverable">
@@ -352,7 +362,7 @@
         </section>
 
         <section class="w3-white w3-margin-bottom usr-ads">
-          <div class="w3-container w3-black">
+          <div class="w3-container w3-blue">
             <h2 tabindex="0">Anuncios</h2>
           </div>
           <div class="w3-container">
@@ -363,7 +373,7 @@
         </section>
 
         <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-black">
+          <div class="w3-container w3-blue">
             <h2 tabindex="0">Nos Siga</h2>
           </div>
           <div class="w3-bar w3-large">
@@ -386,7 +396,7 @@
 
     <h2 class="visually-hidden">Contacts</h2>
 
-    <p>Go to <a href="index.html">Main</a></p>
+    <p>Go to <a href="/index.html">Main</a></p>
 
 
   </footer>
