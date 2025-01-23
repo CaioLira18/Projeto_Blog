@@ -31,6 +31,7 @@
 
   <script src="js/webp.js"        async></script>
   <script src="js/picturefill.js" async></script>
+  <script src="js/responsividade.js" async></script>
   <!--   <script src="js/lazysizes.js"   async></script> -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4322431904968711"
      crossorigin="anonymous"></script>
@@ -45,14 +46,14 @@
 
     <a class="skip-link" href="#main">skip-link</a>
 
-    <nav class="w3-bar w3-blue w3-hide-small">
+    <nav class="w3-bar w3-blue">
       <div class="header">
         <div class="logo">
-          <img src="/midia/icones/logo.png" alt="" style="max-width: 350px; height: auto;">
+          <img src="/midia/icones/logo.png" alt="Logo" style="max-width: 350px; height: auto;">
         </div>
-
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
       </div>
-
+    
       <!-- Barra de navegação -->
       <div class="nav-bar">
         <ul>
@@ -62,7 +63,6 @@
           <li><a href="lançamentos.html">Lançamentos 2025</a></li>
         </ul>
       </div>
-    
     </nav>
 
     <div class="w3-content">
@@ -170,15 +170,13 @@
       </div>
 
       <aside class="w3-col l4 w3-container">
-        <h2 class="visually-hidden">Other News</h2>
-
         <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-black">
+          <div class="w3-container w3-blue">
             <h2 tabindex="0">Posts Populares</h2>
           </div>
           <ul class="w3-ul w3-hoverable">
             <li>
-              <a class="w3-block" href="#">
+              <a class="w3-block" href="#shadows">
                 <picture>
                   <source type="image/jpg"
                           srcset="midia/imagens_posts/ACShadow.jpg">
@@ -189,7 +187,7 @@
               </a>
             </li>
             <li>
-              <a class="w3-block" href="#">
+              <a class="w3-block" href="#rtx">
                 <picture>
                   <source type="image/jpg"
                           srcset="midia/imagens_posts/nvidea.jpg">
@@ -200,14 +198,14 @@
               </a>
             </li>
             <li>
-              <a class="w3-block" href="#">
+              <a class="w3-block" href="#nitendo2">
                 <picture>
                   <source type="image/jpg"
                           srcset="midia/imagens_posts/nitendo.jpg">
 
                   <img class="w3-image w3-left w3-margin-right usr-avatar-min" src="image/workshop.jpg" width="300" height="300" loading="lazy" alt="worksho">
                 </picture>
-                <h3>Nitendo Switch 2 Vazado</h3>
+                <h3>Nitendo Switch 2 Anunciado</h3>
               </a>
             </li>
             
@@ -215,7 +213,7 @@
         </section>
 
         <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-black">
+          <div class="w3-container w3-blue">
             <h2 tabindex="0">Categorias:</h2>
           </div>
           <ul class="w3-ul w3-hoverable">
@@ -239,27 +237,6 @@
             </li>
             
           </ul>
-        </section>
-
-        <section class="w3-white w3-margin-bottom usr-ads">
-          <div class="w3-container w3-black">
-            <h2 tabindex="0">Anuncios</h2>
-          </div>
-          <div class="w3-container">
-            <div class="w3-container w3-display-container w3-section w3-light-grey">
-              <span class="w3-display-middle"> AD Here</span>
-            </div>
-          </div>
-        </section>
-
-        <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-black">
-            <h2 tabindex="0">Nos Siga</h2>
-          </div>
-          <div class="w3-bar w3-large">
-            <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">Instagram</span><span class="fa fa-instagram"></span></a>
-            <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">twitter</span><span class="fa fa-twitter"></span></a>
-          </div>
         </section>
 
       </aside>

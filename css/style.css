@@ -1684,7 +1684,7 @@ body.w3css-marketing {
 
 /* Barra de navegação */
 .nav-bar {
-  background-color: #444444; /* Cor mais escura */
+  background-color: #444444;
   display: flex;
   justify-content: center;
   padding: 10px 0;
@@ -1714,39 +1714,10 @@ body.w3css-marketing {
   color: #FFD700;
 }
 
-/* Dropdown */
-.nav-bar li:hover .dropdown {
-  display: block;
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 30px;
-  background-color: #555555;
-  list-style: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.dropdown li {
-  margin: 0;
-}
-
-.dropdown a {
-  color: #fff;
-  padding: 5px 10px;
-  display: block;
-}
-
-.dropdown a:hover {
-  background-color: #666666;
-}
-
 .logo {
   display: grid;
-  place-items: center; /* Centraliza horizontal e verticalmente */
-  height: 100px;       /* Ajuste a altura conforme necessário */
+  place-items: center;
+  height: 100px;
 }
 
 .logo img {
@@ -1754,6 +1725,7 @@ body.w3css-marketing {
   height: auto;
 }
 
+/* Menu toggle button */
 .menu-toggle {
   display: none;
   background: none;
@@ -1762,6 +1734,35 @@ body.w3css-marketing {
   font-size: 24px;
   cursor: pointer;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Mostra o botão em telas pequenas */
+  }
+
+  .nav-bar {
+    display: none; /* Oculta o menu por padrão */
+    flex-direction: column; /* Organiza itens em coluna */
+    align-items: center;
+    transform: translateY(-20px); /* Posição inicial fora da vista */
+    opacity: 0; /* Começa invisível */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Animação suave */
+  }
+
+  .nav-bar.active {
+    display: flex; /* Mostra o menu ao clicar no botão */
+    transform: translateY(0); /* Move para a posição visível */
+    opacity: 1; /* Torna visível */
+  }
+
+  .nav-bar ul {
+    flex-direction: column; /* Itens em coluna */
+    gap: 10px;
+    align-items: center;
+  }
+}
+
 
 
 .titulo {
