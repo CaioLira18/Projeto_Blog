@@ -23,11 +23,11 @@ O blog foi desenvolvido com as seguintes tecnologias front-end:
 
 📁 Mundo-Geek/ 
 # ├── 📂 css/ 
-# │ └── style.css # Arquivos de estilo 
+## │ └── style.css # Arquivos de estilo 
 # ├── 📂 js/ │ 
-#   └── script.js # Scripts de interatividade 
+##   └── script.js # Scripts de interatividade 
 # ├── 📂 img/ │ 
-#   └── ... # Imagens e recursos visuais 
+##   └── ... # Imagens e recursos visuais 
 # ├── index.html # Página inicial 
 # ├── games.html # Página para artigos sobre games
 # ├── lançamentos.html # Página para artigos dos principais lançamentos 
