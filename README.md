@@ -28,7 +28,7 @@ O blog foi desenvolvido com as seguintes tecnologias front-end:
 -   └── script.js # Scripts de interatividade 
 ## ├── 📂 img/ │  
 -   └── ... # Imagens e recursos visuais
-  │
+
 - ├── index.html # Página inicial 
 - ├── games.html # Página para artigos sobre games
 - ├── lançamentos.html # Página para artigos dos principais lançamentos 
