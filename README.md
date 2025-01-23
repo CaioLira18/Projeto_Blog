@@ -26,7 +26,7 @@ O blog foi desenvolvido com as seguintes tecnologias front-end:
 - │ └── style.css # Arquivos de estilo 
 ## ├── 📂 js/ │ 
 -   └── script.js # Scripts de interatividade 
-## ├── 📂 img/ │ 
+## ├── 📂 img/  
 -   └── ... # Imagens e recursos visuais
   |
 - ├── index.html # Página inicial 
