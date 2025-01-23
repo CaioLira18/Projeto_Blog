@@ -79,6 +79,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Alilato';
+  src: url('../font/alilato/Alilato-ExtraLight.ttf') format('Alilato');
+  src: url('../font/woff/Lato-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 /* переменные css */
 :root {
   /* переменные цвета */
@@ -1756,12 +1764,15 @@ body.w3css-marketing {
 }
 
 
-
-
 .titulo {
   font-size: 35px;
 }
 .texto {
   font-size: 19px;
   text-align:justify;
+}
+
+p {
+  font-family: "Alilato";
+  font-size: 18px;
 }
