@@ -22,14 +22,14 @@ O blog foi desenvolvido com as seguintes tecnologias front-end:
 ## 📂 Estrutura do Projeto
 
 📁 Mundo-Geek/ 
-# ├── 📂 css/ 
+## ├── 📂 css/ 
 - │ └── style.css # Arquivos de estilo 
-# ├── 📂 js/ │ 
+## ├── 📂 js/ │ 
 -   └── script.js # Scripts de interatividade 
-# ├── 📂 img/ │ 
+## ├── 📂 img/ │ 
 -   └── ... # Imagens e recursos visuais 
-# ├── index.html # Página inicial 
-# ├── games.html # Página para artigos sobre games
-# ├── lançamentos.html # Página para artigos dos principais lançamentos 
-# ├── hardware.html # Página para artigos sobre hardwares 
-# └── README.md # Documentação do projeto
+- ├── index.html # Página inicial 
+- ├── games.html # Página para artigos sobre games
+- ├── lançamentos.html # Página para artigos dos principais lançamentos 
+- ├── hardware.html # Página para artigos sobre hardwares 
+- └── README.md # Documentação do projeto
