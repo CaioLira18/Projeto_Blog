@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="icon" type="image/png" href="/midia/icones/logo_only.png">
 
 
@@ -57,7 +57,6 @@
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
       </div>
     
-      <!-- Barra de navegação -->
       <div class="nav-bar">
         <ul>
           <li><a href="index.html">NOTÍCIAS</a></li>
@@ -66,45 +65,72 @@
           <li><a href="lançamentos.html">Lançamentos 2025</a></li>
         </ul>
         <div class="search-container">
-          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Proucura...">
+          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Procura...">
           <button id="search-btn" onclick="toggleSearch()"><img src="/midia/icones/lupa.png" alt=""></button>
         </div>
       </div>
     </nav>
-
-    <div class="w3-content">
-
-      <div class="w3-modal">
-        <div class="w3-modal-content  w3-display-container w3-animate-top">
-
-          <button class="w3-button w3-display-topright w3-black w3-large usr-modal-btn-close">
-            <span class="visually-hidden">Close</span>
-            <span class="fa fa-remove"></span>
-          </button>
-
-          <div class="w3-container w3-black w3-padding-large w3-center">
-            <h3 tabindex="0">Subscribe</h3>
-          </div>
-          <p class="w3-container w3-padding-large">Join my mailing list to receive updates on the latest blog posts and other things.</p>
-
-          <form action="#" method="post">
-            <label class="visually-hidden" for="email">Enter e-mail</label>
-            <div class="w3-container w3-padding-large">
-              <input class="w3-input w3-border" id="email" type="email" name="email" placeholder="Enter e-mail" required>
-            </div>
-
-            <div class="w3-container w3-padding-large">
-              <button class="w3-button w3-block w3-red" type="submit">Subscribe</button>
-            </div>
-
-          </form>
-
-        </div>
-      </div>
-
-    </div>
-
   </header>
+
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Notícias</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: #111;
+            color: white;
+        }
+        .banner {
+            background: url('background.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .banner-content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+        .main-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .highlights-section {
+            text-align: center;
+            padding: 20px;
+        }
+        .highlights {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .category {
+            color: yellow;
+            font-size: 12px;
+        }
+    </style>
+</head>
 
   <main class="w3-content" id="main">
 

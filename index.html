@@ -62,53 +62,22 @@
           <li><a href="hardware.html">Hardware</a></li>
           <li><a href="lançamentos.html">Lançamentos 2025</a></li>
         </ul>
+    
         <div class="search-container">
-          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Proucura...">
-          <button id="search-btn" onclick="toggleSearch()"><img src="/midia/icones/lupa.png" alt=""></button>
+          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Procura...">
+          <button id="search-btn" onclick="toggleSearch()">
+            <img src="/midia/icones/lupa.png" alt="">
+          </button>
         </div>
       </div>
     </nav>
-    
-    
-
-    <div class="w3-content">
-      <div class="w3-modal">
-        <div class="w3-modal-content  w3-display-container w3-animate-top">
-
-          <button class="w3-button w3-display-topright w3-black w3-large usr-modal-btn-close">
-            <span class="visually-hidden">Close</span>
-            <span class="fa fa-remove"></span>
-          </button>
-
-          <div class="w3-container w3-black w3-padding-large w3-center">
-            <h3 tabindex="0">Subscribe</h3>
-          </div>
-          <p class="w3-container w3-padding-large">Join my mailing list to receive updates on the latest blog posts and other things.</p>
-
-          <form action="#" method="post">
-            <label class="visually-hidden" for="email">Enter e-mail</label>
-            <div class="w3-container w3-padding-large">
-              <input class="w3-input w3-border" id="email" type="email" name="email" placeholder="Enter e-mail" required>
-            </div>
-
-            <div class="w3-container w3-padding-large">
-              <button class="w3-button w3-block w3-red" type="submit">Subscribe</button>
-            </div>
-
-          </form>
-
-        </div>
-      </div>
-
-    </div>
-
   </header>
 
   <main class="w3-content" id="main">
 
     <div class="w3-row w3-padding-64">
 
-      <div class="w3-col l8 w3-container">
+      <div class="w3-col l12 w3-container">
 
         <article class="w3-white w3-margin-bottom" id="ghostofyotei">
           <div class="w3-container">
@@ -258,7 +227,7 @@
         
             <picture>
               <source type="image/jpg" srcset="midia/imagens_posts/nvidea.jpg">
-              <img class="w3-image" src="image/girl_hat.jpg" width="600" height="395" loading="lazy" alt="Girl hat">
+              <img class="w3-image" src="/midia/imagens_posts/nvidea.jpg" width="600" height="395" loading="lazy" alt="Girl hat">
             </picture>
         
             <p>
@@ -275,81 +244,8 @@
 
       </div>
 
-      
-
-      <aside class="w3-col l4 w3-container">
-        <h2 class="visually-hidden">Other News</h2>
-
-        <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-blue">
-            <h2 tabindex="0">Posts Populares</h2>
-          </div>
-          <ul class="w3-ul w3-hoverable">
-            <li>
-              <a class="w3-block" href="#ghostofyotei">
-                <picture>
-                  <img class="w3-image w3-left w3-margin-right usr-avatar-min" src="/midia/imagens_posts/ghost_of_yotei.webp" width="200" height="223" loading="lazy" alt="man smoke">
-                </picture>
-                <h3>Roteristas de Dragon Age na Sony</h3>
-              </a>
-            </li>
-            <li>
-              <a class="w3-block" href="#forza">
-                <picture>
-                  <img class="w3-image w3-left w3-margin-right usr-avatar-min" src="/midia/imagens_posts/forza.jpg" width="200" height="223" loading="lazy" alt="man smoke">
-                </picture>
-                <h3>Forza horizon 5 chega ao PS5</h3>
-              </a>
-            </li>
-            <li>
-              <a class="w3-block" href="#godofwar">
-                <picture>
-                  <img class="w3-image w3-left w3-margin-right usr-avatar-min" src="/midia/imagens_posts/god of war.jpg" width="255" height="255" loading="lazy" alt="man smoke">
-                </picture>
-                <h3>Possivel local do novo god of war</h3>
-              </a>
-            </li>
-            <li>
-              <a class="w3-block" href="#psplus">
-                <picture>
-                  <img class="w3-image w3-left w3-margin-right usr-avatar-min" src="/midia/imagens_posts/pspluss.webp" width="300" height="300" loading="lazy" alt="worksho">
-                </picture>
-                <h3>Sony releva mudanças na ps plus</h3>
-              </a>
-            </li>     
-          </ul>
-        </section>
-
-        <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-blue">
-            <h2 tabindex="0">Categorias:</h2>
-          </div>
-          <ul class="w3-ul w3-hoverable">
-            <li>
-              <a class="w3-block hardware-link" href="games.html">
-                <img src="/midia/icones/controle.png" alt="" width="50px">
-                <h3>Games</h3>
-              </a> 
-            </li>
-            <li>
-              <a class="w3-block hardware-link" href="hardware.html">
-                <img src="/midia/icones/hardware.png" alt="" width="50px">
-                <h3>Hardware</h3>
-              </a> 
-            </li>
-            <li>
-              <a class="w3-block hardware-link" href="index.html">
-                <img src="/midia/icones/noticia.png" alt="" width="50px">
-                <h3>Ultimas Noticias</h3>
-              </a> 
-            </li>
-            
-          </ul>
-        </section>
-
-      </aside>
-
     </div>
+
 
     <div class="container">
         <div class="section-title">Leia Mais</div>
@@ -374,13 +270,14 @@
             </div>
         </div>
     </div>
+
     <div class="w3-container w3-padding-32">
       <a class="w3-button w3-mobile w3-black" href="#"><span class="fa fa-arrow-up w3-margin-right"></span> Voltar Para cima</a>
     </div>
 
   </main>
 
-  
+
 
   <footer class="w3-container w3-padding-32 w3-center w3-black">
 
