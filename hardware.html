@@ -32,6 +32,8 @@
   <script src="js/webp.js"        async></script>
   <script src="js/picturefill.js" async></script>
   <script src="js/responsividade.js" async></script>
+  <script src="js/pesquisar.js" async></script>
+
   
   <!--   <script src="js/lazysizes.js"   async></script> -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4322431904968711"
@@ -63,6 +65,10 @@
           <li><a href="hardware.html">Hardware</a></li>
           <li><a href="lançamentos.html">Lançamentos 2025</a></li>
         </ul>
+        <div class="search-container">
+          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Proucura...">
+          <button id="search-btn" onclick="toggleSearch()"><img src="/midia/icones/lupa.png" alt=""></button>
+        </div>
       </div>
     </nav>
 

@@ -25,14 +25,13 @@
   <link rel="icon" type="image/png" href="/midia/icones/logo_only.png">
 
 
-
-
-
   <script>document.createElement("picture");</script>
 
   <script src="js/webp.js"        async></script>
   <script src="js/picturefill.js" async></script>
   <script src="js/responsividade.js" async></script>
+  <script src="js/pesquisar.js" async></script>
+
   
   
   <!--   <script src="js/lazysizes.js"   async></script> -->
@@ -63,8 +62,13 @@
           <li><a href="hardware.html">Hardware</a></li>
           <li><a href="lançamentos.html">Lançamentos 2025</a></li>
         </ul>
+        <div class="search-container">
+          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Proucura...">
+          <button id="search-btn" onclick="toggleSearch()"><img src="/midia/icones/lupa.png" alt=""></button>
+        </div>
       </div>
     </nav>
+    
     
 
     <div class="w3-content">
@@ -341,27 +345,6 @@
             </li>
             
           </ul>
-        </section>
-
-        <section class="w3-white w3-margin-bottom usr-ads">
-          <div class="w3-container w3-blue">
-            <h2 tabindex="0">Anuncios</h2>
-          </div>
-          <div class="w3-container">
-            <div class="w3-container w3-display-container w3-section w3-light-grey">
-              <span class="w3-display-middle"> AD Here</span>
-            </div>
-          </div>
-        </section>
-
-        <section class="w3-margin-bottom w3-white">
-          <div class="w3-container w3-blue">
-            <h2 tabindex="0">Nos Siga</h2>
-          </div>
-          <div class="w3-bar w3-large">
-            <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">Instagram</span><span class="fa fa-instagram"></span></a>
-            <a class="w3-bar-item w3-button" href="#"><span class="visually-hidden">twitter</span><span class="fa fa-twitter"></span></a>
-          </div>
         </section>
 
       </aside>
