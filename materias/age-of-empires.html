@@ -3,7 +3,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>MundoGeek</title>
+  <title>Mundo Geek</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,11 +17,11 @@
   <link rel="preload" href="font/woff2/OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="preload" href="https://www.w3schools.com/w3css/4/w3.css"         as="style">
-  <link rel="preload" href="css/style.css"                                    as="style">
+  <link rel="preload" href="/css/style_materia.css"                                    as="style">
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
   <link rel="icon" type="image/png" href="/midia/icones/logo_only.png">
 
 
@@ -30,14 +30,9 @@
   <script>document.createElement("picture");</script>
 
   <script src="js/webp.js"        async></script>
+  <script src="/js/responsividade.js" async></script>
   <script src="js/picturefill.js" async></script>
-  <script src="js/responsividade.js" async></script>
-  <script src="js/pesquisar.js" async></script>
-
-  
   <!--   <script src="js/lazysizes.js"   async></script> -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4322431904968711"
-     crossorigin="anonymous"></script>
 
 </head>
 
@@ -60,20 +55,15 @@
       <!-- Barra de navegação -->
       <div class="nav-bar">
         <ul>
-          <li><a href="index.html">NOTÍCIAS</a></li>
-          <li><a href="games.html">GAMES</a></li>
-          <li><a href="hardware.html">Hardware</a></li>
-          <li><a href="lançamentos.html">Lançamentos 2025</a></li>
+          <li><a href="/index.html">NOTÍCIAS</a></li>
+          <li><a href="/games.html">GAMES</a></li>
+          <li><a href="/hardware.html">Hardware</a></li>
+          <li><a href="/lançamentos.html">Lançamentos 2025</a></li>
         </ul>
-        <div class="search-container">
-          <input type="text" id="search" onkeyup="searchArticles()" placeholder="O Que Você Proucura...">
-          <button id="search-btn" onclick="toggleSearch()"><img src="/midia/icones/lupa.png" alt=""></button>
-        </div>
       </div>
     </nav>
 
     <div class="w3-content">
-
       <div class="w3-modal">
         <div class="w3-modal-content  w3-display-container w3-animate-top">
 
@@ -112,55 +102,57 @@
 
       <div class="w3-col l12 w3-container">
 
-        <article class="w3-white w3-margin-bottom" id="rtx">
+        <article class="w3-white w3-margin-bottom">
           <div class="w3-container">
-            <header class="w3-padding-16 w3-center">
-              <h2 tabindex="0">RTX Serie 50 Anunciada</h2>
-              <p>NVIDIA divulga as novas placas de vídeo, <time class="w3-text-grey">15/01/2025</time></p>
-            </header>
-        
-            <picture>
-              <source type="image/jpg" srcset="midia/imagens_posts/nvidea.jpg">
-              <img class="w3-image" src="image/girl_hat.jpg" width="600" height="395" loading="lazy" alt="Girl hat">
-            </picture>
-        
-            <p>
-              A NVIDIA anunciou a nova linha de placas de vídeo GeForce RTX Série 50, com modelos como a RTX 5090, 5080, 5070 Ti e 5070, trazendo avanços notáveis em desempenho e inteligência artificial. A RTX 5090, topo de linha, oferece até duas vezes o desempenho da RTX 4090, com preços a partir de US$ 1.999. Disponível a partir de 30 de janeiro de 2025, os modelos variam em especificações, atendendo diferentes necessidades de gamers e profissionais.
-            </p>
-            <hr>
-        
-            <!-- Botão animado -->
-            <div class="button-container">
-              <a href="/materias/rtx.html" class="animated-button" target="_blank">Matéria Completa</a>
-            </div>
-          </div>
-        </article>
+              
+              <header class="w3-padding-16 w3-center">
+                  <h3 class="titulo" tabindex="0">Age of Empires II e Age of Mythology chegam ao PlayStation 5</h3>
+                  <p>Microsoft anuncia mais jogos exclusivos chegando ao console da Sony, <time class="w3-text-grey">04/02/2025</time></p>
+              </header>
+              
+              <picture>
+                  <img class="w3-image" src="/midia/imagens_posts/age-of-empires.webp" width="600" height="395" loading="lazy" alt="Age of Empires no PlayStation 5">
+              </picture>
+              
+              <p class="texto">A Microsoft anunciou que Age of Empires II: Definitive Edition e Age of Mythology: Retold serão lançados para o PlayStation 5, marcando mais uma movimentação da empresa ao trazer seus títulos exclusivos para outros consoles.</p>
+              
+              <section>
+                  <h3>Lançamento e Recursos</h3>
+                  <p class="texto">Age of Mythology: Retold será lançado em 4 de março de 2025, enquanto Age of Empires II: Definitive Edition chegará no decorrer da primavera de 2025. Ambos os títulos terão paridade de conteúdo entre as plataformas e suporte a cross-play, permitindo que jogadores de diferentes sistemas joguem juntos.</p>
+              </section>
+              
+              <section>
+                  <h3>Impacto no Mercado</h3>
+                  <p class="texto">Essa decisão reforça a estratégia da Microsoft de expandir o alcance de suas franquias, explorando novos públicos fora do ecossistema Xbox. Ao disponibilizar esses clássicos do gênero de estratégia em tempo real para o PS5, a empresa amplia ainda mais a presença da franquia no mercado.</p>
+              </section>
+              
+              <footer>
+                  <p class="texto">Ainda não há informações sobre futuras conversões de outros títulos exclusivos, mas essa mudança abre precedentes para mais jogos da Microsoft chegarem ao console da Sony no futuro.</p>
+                  <picture>
+                      <img class="w3-image" src="/midia/imagens_posts/age-of-mythology.webp" width="600" height="395" loading="lazy" alt="Age of Mythology no PlayStation 5">
+                  </picture>
+                  <hr>
+              </footer>
 
-        <article class="w3-white w3-margin-bottom" id="nitendo2">
-          <div class="w3-container">
-            <header class="w3-padding-16 w3-center">
-              <h2 tabindex="0">Nitendo Switch 2 ANUNCIADO</h2>
-              <p>Nitendo Anuncia Oficialmente o Novo Switch <time class="w3-text-grey">19/01/2025</time></p>
-            </header>
-        
-            <picture>
-              <img class="w3-image" src="/midia/imagens_posts/nintendo-2.avif" width="600" height="395" loading="lazy" alt="Girl hat">
-            </picture>
-            <p>
-              A Nintendo anunciou oficialmente o Nintendo Switch 2, trazendo melhorias significativas em desempenho e jogabilidade. O novo console híbrido conta com gráficos em 4K, uma tela OLED de 8 polegadas e Joy-Cons revisados, além de suportar áudio espacial e um modo cooperativo aprimorado. Com retrocompatibilidade e novos títulos exclusivos, o Switch 2 promete ser um dos maiores lançamentos de 2025, mantendo a posição da Nintendo como líder no mercado de jogos.
-            </p>
-            <hr>
-        
-            <!-- Botão animado -->
-            <div class="button-container">
-              <a href="/materias/nitendoswitch2.html" class="animated-button" target="_blank">Matéria Completa</a>
-            </div>
+              <div class="video-container">
+                <iframe width="1600" height="800" src="https://www.youtube.com/embed/1vBe-Tcehu4" 
+                title="YouTube video player" frameborder="0" allowfullscreen>
+              </iframe>
+              </div>
+              
           </div>
-        </article>
-
+      </article>
+      
+      
       </div>
 
+      <aside class="w3-col l4 w3-container">
+        <h2 class="visually-hidden">Other News</h2>
+
+      </aside>
+
     </div>
+
     <div class="container">
       <div class="section-title">Leia Mais</div>
       <div class="video-container">
@@ -184,7 +176,7 @@
           </div>
       </div>
   </div>
-
+  
     <div class="w3-container w3-padding-32">
       <a class="w3-button w3-mobile w3-black" href="#"><span class="fa fa-arrow-up w3-margin-right"></span> Voltar Para cima</a>
     </div>

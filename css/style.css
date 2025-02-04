@@ -1655,12 +1655,15 @@ main {
   align-items: center;    /* Centraliza verticalmente */
   height: 200px;          /* Altura do cabeçalho */
   position: relative;     /* Permite adicionar elementos laterais, se necessário */
+  
 }
 
 .logo img {
   max-width: 100px; /* Ajuste o tamanho da logo */
   height: auto;
   margin-top: -110px;
+  z-index: 100;
+  
 }
 .logo {
   display: flex;
@@ -1688,6 +1691,10 @@ main {
 }
 
  /* Barra de navegação */
+
+ .header .logo img{
+  opacity: 1;
+ }
  .nav-bar {
   background-color: #444444;
   display: flex;
