@@ -1933,3 +1933,44 @@ a {
   align-items: center; /* Centraliza verticalmente (se necessário) */
 }
 
+.card {
+  display: flex;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  align-items: center;
+}
+.card img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+.card-content {
+  margin-left: 15px;
+}
+.category {
+  color: #a45ee5;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.title a {
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.4s all ease-in-out;
+}
+
+.title a:hover{
+  background-color: #8a2be2; 
+}
+
+.rating {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
